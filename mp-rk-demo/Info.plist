@@ -1,0 +1,95 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<plist version="1.0">
+
+<dict>
+
+<!-- General app metadata (optional placeholders; customize as needed) -->
+
+<key>CFBundleDisplayName</key>
+
+<string>$(PRODUCT_NAME)</string>
+
+<key>CFBundleIdentifier</key>
+
+<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+
+<key>CFBundleName</key>
+
+<string>$(PRODUCT_NAME)</string>
+
+<key>CFBundleShortVersionString</key>
+
+<string>1.0</string>
+
+<key>CFBundleVersion</key>
+
+<string>1</string>
+
+<!-- Critical: the executable that will be launched -->
+
+<key>CFBundleExecutable</key>
+
+<string>$(EXECUTABLE_NAME)</string>
+
+<key>CFBundlePackageType</key>
+
+<string>APPL</string>
+
+
+<!-- Scene Manifest for all platforms -->
+
+<key>UIApplicationSceneManifest</key>
+
+<dict>
+
+    <!-- Preferred default for visionOS: volumetric application scene. 
+
+         On other platforms, this key is ignored if the role isn't supported. -->
+
+    <key>UIApplicationPreferredDefaultSceneSessionRole</key>
+
+    <string>UIWindowSceneSessionRoleVolumetricApplication</string>
+
+
+    <!-- Allow multiple scenes/windows (works across platforms that support it). -->
+
+    <key>UIApplicationSupportsMultipleScenes</key>
+
+    <true/>
+
+
+    <!-- Provide empty configurations; SwiftUI manages scene setup. -->
+
+    <key>UISceneConfigurations</key>
+
+    <dict>
+
+        <!-- iOS/iPadOS/Mac Catalyst default app windows -->
+
+        <key>UIWindowSceneSessionRoleApplication</key>
+
+        <array/>
+
+        <!-- visionOS volumetric windows -->
+
+        <key>UIWindowSceneSessionRoleVolumetricApplication</key>
+
+        <array/>
+
+        <!-- visionOS immersive spaces (if you add them later) -->
+
+        <key>UIWindowSceneSessionRoleImmersiveSpaceApplication</key>
+
+        <array/>
+
+    </dict>
+
+</dict>
+
+</dict>
+
+</plist>

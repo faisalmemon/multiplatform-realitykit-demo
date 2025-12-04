@@ -13,6 +13,7 @@
 
 /* Begin PBXFileReference section */
 		390F011E2EE23B1500ED1A38 /* mp-rk-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mp-rk-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		390F01382EE2404C00ED1A38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -39,6 +40,7 @@
 		390F01152EE23B1500ED1A38 = {
 			isa = PBXGroup;
 			children = (
+				390F01382EE2404C00ED1A38 /* Info.plist */,
 				390F01202EE23B1500ED1A38 /* mp-rk-demo */,
 				390F011F2EE23B1500ED1A38 /* Products */,
 			);
@@ -191,6 +193,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = Info.plist;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -247,6 +250,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = Info.plist;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
