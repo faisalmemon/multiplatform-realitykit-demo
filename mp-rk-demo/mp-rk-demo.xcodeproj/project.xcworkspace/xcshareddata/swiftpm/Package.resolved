@@ -1,0 +1,15 @@
+{
+  "originHash" : "92c245e94a37f479c2dbbee62f98ce19d6bcaf1f19e435c8d52a9c1fe425370f",
+  "pins" : [
+    {
+      "identity" : "rcp.donut",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:faisalmemon/rcp.donut.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "b07eaaa452f709ccc53ad2f96184c61f801f32df"
+      }
+    }
+  ],
+  "version" : 3
+}
