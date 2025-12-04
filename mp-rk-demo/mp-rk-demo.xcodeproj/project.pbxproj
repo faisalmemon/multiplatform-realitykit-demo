@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		390F012E2EE23B6700ED1A38 /* rcp in Frameworks */ = {isa = PBXBuildFile; productRef = 390F012D2EE23B6700ED1A38 /* rcp */; };
+		390F01372EE23E7A00ED1A38 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 390F01362EE23E7A00ED1A38 /* RealityKitContent */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				390F01372EE23E7A00ED1A38 /* RealityKitContent in Frameworks */,
 				390F012E2EE23B6700ED1A38 /* rcp in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,6 +73,7 @@
 			name = "mp-rk-demo";
 			packageProductDependencies = (
 				390F012D2EE23B6700ED1A38 /* rcp */,
+				390F01362EE23E7A00ED1A38 /* RealityKitContent */,
 			);
 			productName = "mp-rk-demo";
 			productReference = 390F011E2EE23B1500ED1A38 /* mp-rk-demo.app */;
@@ -102,6 +105,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				390F012C2EE23B6700ED1A38 /* XCRemoteSwiftPackageReference "rcp.donut" */,
+				390F01352EE23E7A00ED1A38 /* XCLocalSwiftPackageReference "Packages/RealityKitContent" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 390F011F2EE23B1500ED1A38 /* Products */;
@@ -361,6 +365,13 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		390F01352EE23E7A00ED1A38 /* XCLocalSwiftPackageReference "Packages/RealityKitContent" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/RealityKitContent;
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCRemoteSwiftPackageReference section */
 		390F012C2EE23B6700ED1A38 /* XCRemoteSwiftPackageReference "rcp.donut" */ = {
 			isa = XCRemoteSwiftPackageReference;
@@ -377,6 +388,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 390F012C2EE23B6700ED1A38 /* XCRemoteSwiftPackageReference "rcp.donut" */;
 			productName = rcp;
+		};
+		390F01362EE23E7A00ED1A38 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
